@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: { 
+        'roboto': ['robotoblack', "system-ui"], 
+        'biber': ['biber', "system-ui"], 
+        'poppins': ["poppins"], 
+      },
+    },
   },
   plugins: [],
 }
