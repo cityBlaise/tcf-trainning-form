@@ -81,7 +81,7 @@ const App = memo(() => {
           setRestart={setRestart}
         />
       </div>
-      <div className="grid font-poppins text-sm relative max-w-full gap-4 lg:grid-flow-col  lg:max-w-6xl lg:mx-auto lg:mb-8 lg:gap-0">
+      <div className="grid font-poppins text-sm relative max-w-full gap-4 lg:grid-flow-col  lg:max-w-7xl 4xl:max-w-[85rem] lg:mx-auto lg:mb-8 lg:gap-0">
         <Formik
           initialValues={initialValues}
           validate={(values) => {
