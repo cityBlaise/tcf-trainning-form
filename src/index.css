@@ -2,19 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'robotoblack';
+  src: url('./assets/robotoblack/roboto-slab.regular-webfont.woff2')
+      format('woff2'),
+    url('./assets/robotoblack/roboto-slab.regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'biber';
+  src: url('./assets/biber_beard/biber_beard-webfont.woff2') format('woff2'),
+    url('./assets/biber_beard/biber_beard-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('./assets/poppins/poppins-regular-webfont.woff2') format('woff2'),
+       url('./assets/poppins/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 #root {
-  @apply grid w-full h-full min-h-[100dvh];
+  @apply grid w-full h-full min-h-[100dvh]; 
+  
 }
 
 input[type="text"],
 input[type="password"],
 input[type="date"],
 select,
+input[type="file"],
 input[type="email"] {
-  @apply ring-0 p-1.5 px-4 w-full mt-1 bg-gray-50 border border-gray-300/90 rounded-md shadow-sm
+  @apply ring-0 p-2 px-4 w-full bg-gray-50 border border-gray-300/90 rounded-md shadow-sm
   outline-none focus:ring-1 focus:ring-indigo-400 text-gray-600 font-normal;
 }
 
 label{
-  @apply capitalize font-semibold  mb-2;
+  @apply capitalize font-semibold;
 } 

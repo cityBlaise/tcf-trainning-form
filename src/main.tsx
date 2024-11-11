@@ -12,12 +12,14 @@ const Submit = () => {
 
   return (
     <div className="grid place-content-center gap-4">
-      <h1 className="pricing-header firstch text-4xl uppercase">Prix de l'examen</h1>
+      <h1 className="pricing-header firstch text-4xl uppercase font-biber">
+        Entraines-toi à remplir le plus rapidement le formulaire
+      </h1>
       <Link
         to={"/form"}
-        className="bg-purple-500 capitalize text-white p-2 min-w-36 text-center rounded-sm shadow"
+        className="bg-purple-500 capitalize text-white p-2 w-fit px-4 mx-auto text-center rounded-sm shadow"
       >
-        <button type="submit">submit</button>
+        <button type="submit" className="">commencer</button>
       </Link>
     </div>
   );
