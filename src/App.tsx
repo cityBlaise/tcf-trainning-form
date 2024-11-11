@@ -144,7 +144,7 @@ const App = memo(() => {
                 className="p-4 w-full max-w-full "
                 onSubmit={handleSubmit}
               >
-                <div className="w-fit grid gap-6  mx-auto  lg:max-w-7xl">
+                <div className="w-fit grid gap-6  mx-auto  lg:max-w-5xl">
                   <FormControl>
                     <label htmlFor="email" className="">
                       email
